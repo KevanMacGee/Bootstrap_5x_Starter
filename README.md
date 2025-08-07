@@ -31,6 +31,26 @@ Bootstrap5_7/
 - **Clean folder structure** - Flat organization for simplicity
 - **Minimal HTML** - Just "Hello, world." to start fresh
 
+## 📋 Best Practices for Using This Template
+
+### 1. **Assets Organization**
+
+- **Images**: Store all images in `images/`
+- **CSS**: Keep styles organized in `css/`
+  - `style.css` for main custom styles
+- **JavaScript**: Maintain scripts in `js/`
+  - `script.js` for main functionality
+  - Add separate JS files for complex features
+  - Keep third-party libraries separate
+
+### 2. **Development Workflow**
+
+1. Clone/copy this template to start a new project
+2. Update meta tags in `index.html`
+3. Replace "Hello, world." with your content
+4. Uncomment JavaScript features as needed (check script.js comments)
+5. Customize CSS variables in `style.css`
+
 ### Minimal CSS (style.css)
 The CSS file is intentionally minimal, containing only:
 
@@ -46,51 +66,27 @@ The CSS file is intentionally minimal, containing only:
    - Ready for your responsive styles
 
 ### JavaScript Structure (script.js)
+
+The `script.js` file has the basic js needed for the Bootstrap features like tooltips and popovers to work and this is currently active. The rest of the features have been commented out and are non functional. You will need to un-comment them to turn them on. You should be able to delete all the commented out code if you want to run a true blank slate and build your own.
+
 **Active:**
 - **Bootstrap component initialization** - Tooltips and popovers ready to work
 
 **Commented Out (Ready to Enable):**
+
 - **Smooth scrolling** - For anchor links (uncomment when needed)
 - **Form validation** - Bootstrap validation handlers
 - **Back-to-top button** - Scroll-based visibility and smooth return
-- **Intersection Observer** - For fade-in animations
+- **Intersection Observer** - For fade-in animations. **NOTE**: This just turns on the js functionality, so the browser can "see" and run the CSS animation instructions if they are there. You will have to add them manually to the CSS first.
 - **Utility functions** - debounce, isInViewport, formatDate
 - Each function includes "What it does", "Why enable it", and "When to uncomment" notes
 
-## 📋 Best Practices for Using This Template
 
-### 1. **Assets Organization**
-- **Images**: Store all images in `images/`
-  - Use descriptive names: `hero-background.jpg`, not `img1.jpg`
-  - Optimize images before adding (use tools like TinyPNG)
-  - Consider using WebP format for better performance
-  
-- **CSS**: Keep styles organized in `css/`
-  - `style.css` for main custom styles
-  - Create additional CSS files for specific components if needed
-  - Use CSS variables for consistent theming
-  
-- **JavaScript**: Maintain scripts in `js/`
-  - `script.js` for main functionality
-  - Add separate JS files for complex features
-  - Keep third-party libraries separate
-
-### 2. **Naming Conventions**
-- Use lowercase with hyphens for files: `my-style.css`
-- Use meaningful, descriptive names
-- Group related files with prefixes: `form-validation.js`, `form-styles.css`
-
-### 3. **Development Workflow**
-1. Clone/copy this template to start a new project
-2. Update meta tags in `index.html`
-3. Replace "Hello, world." with your content
-4. Uncomment JavaScript features as needed (check script.js comments)
-5. Customize CSS variables in `style.css`
 
 ## 🛠️ Customization
 
 ### Updating Bootstrap
-To update Bootstrap version, replace the CDN links in `index.html`:
+To update Bootstrap version, replace the CDN links in `index.html`. You will update it with the current version name found on Bootstrap's site.
 ```html
 <!-- Update these links with new version -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@[VERSION]/dist/css/bootstrap.min.css">
