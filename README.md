@@ -31,6 +31,28 @@ Bootstrap5_7/
 - **Clean folder structure** - Flat organization for simplicity
 - **Minimal HTML** - Just "Hello, world." to start fresh
 
+## 🎯 How to Use This Template
+
+### Option 1: Use as GitHub Template (Recommended)
+1. Click the green **"Use this template"** button at the top of this repository
+2. Name your new repository and choose public/private
+3. Clone your new repository to your local machine
+4. Start building your project!
+
+### Option 2: Download ZIP
+1. Click the green **"Code"** button
+2. Select **"Download ZIP"**
+3. Extract to your project folder
+4. Initialize Git (optional): `git init`
+
+### Option 3: Clone Directly
+```bash
+git clone https://github.com/kevanmacgee/Bootstrap_5x_Starter.git my-project
+cd my-project
+rm -rf .git  # Remove template's git history
+git init     # Start fresh with your own git history
+```
+
 ## 📋 Best Practices for Using This Template
 
 ### 1. **Assets Organization**
