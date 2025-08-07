@@ -5,7 +5,7 @@ A clean, minimal Bootstrap 5 starter template with just the essentials - ready f
 ## 📁 Folder Structure
 
 ```
-Bootstrap_5x_Starter/
+Bootstrap5_7/
 │
 ├── index.html          # Minimal HTML with just "Hello, world."
 ├── README.md           # Documentation (this file)
@@ -53,7 +53,7 @@ rm -rf .git  # Remove template's git history
 git init     # Start fresh with your own git history
 ```
 
-## 📋 Best Practices for Using This Template
+## 📋 What you need to know
 
 ### 1. **Assets Organization**
 
@@ -67,7 +67,7 @@ git init     # Start fresh with your own git history
 
 ### 2. **Development Workflow**
 
-1. Clone/copy this template to start a new project
+1. Obtain a copy of this template using the instructions above, based on your preference
 2. Update meta tags in `index.html`
 3. Replace "Hello, world." with your content
 4. Uncomment JavaScript features as needed (check script.js comments)
