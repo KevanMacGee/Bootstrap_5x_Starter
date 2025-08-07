@@ -5,7 +5,7 @@ A clean, minimal Bootstrap 5 starter template with just the essentials - ready f
 ## 📁 Folder Structure
 
 ```
-Bootstrap5_7/
+Bootstrap_5x_Starter/
 │
 ├── index.html          # Minimal HTML with just "Hello, world."
 ├── README.md           # Documentation (this file)
