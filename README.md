@@ -76,10 +76,9 @@ git init     # Start fresh with your own git history
 ### Minimal CSS (style.css)
 The CSS file is intentionally minimal, containing only:
 
-1. **CSS Variables** - Pre-defined color, spacing, and font variables matching Bootstrap defaults
-   - Easy to override Bootstrap's color scheme
-   - Consistent spacing system ready to use
-   - No actual styles applied, just variables
+1. **CSS Variables** - Pre-defined color, spacing, and font variables for your custom styles.
+   - A convenient way to define and reuse a consistent color palette and spacing system in your own CSS.
+   - Note: These variables do not override Bootstrap's default theme. To use them, reference them in your custom CSS rules (e.g., `color: var(--primary-color);`).
 2. **Component Override Example** - Simple button enhancement showing how to customize Bootstrap
    - Can be removed or modified as needed
    - Demonstrates the pattern for overriding Bootstrap components
@@ -108,11 +107,13 @@ The `script.js` file has the basic js needed for the Bootstrap features like too
 ## 🛠️ Customization
 
 ### Updating Bootstrap
-To update Bootstrap version, replace the CDN links in `index.html`. You will update it with the current version name found on Bootstrap's site.
+To update Bootstrap version, get the new CDN links from the official Bootstrap documentation. **Important:** Make sure to copy the full `<link>` and `<script>` tags, including the `integrity` and `crossorigin` attributes. These are security features that ensure the files haven't been tampered with.
+
+Example:
 ```html
-<!-- Update these links with new version -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@[VERSION]/dist/css/bootstrap.min.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@[VERSION]/dist/js/bootstrap.bundle.min.js">
+<!-- Get the full, new links from getbootstrap.com -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@[NEW_VERSION]/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@[NEW_VERSION]/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
 ```
 
 ### Adding Custom Fonts
