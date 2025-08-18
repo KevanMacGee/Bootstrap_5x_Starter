@@ -58,10 +58,8 @@ git init     # Start fresh with your own git history
 ### 1. **Assets Organization**
 
 - **Images**: Store all images in `images/`
-- **CSS**: Keep styles organized in `css/`
-  - `style.css` for main custom styles
-- **JavaScript**: Maintain scripts in `js/`
-  - `script.js` for main functionality
+- **CSS**: `style.css` for main custom styles
+- **JavaScript**: `script.js` for main functionality
   - Add separate JS files for complex features
   - Keep third-party libraries separate
 
@@ -142,6 +140,3 @@ Edit CSS variables in `style.css`:
 
 This template is free to use for personal and commercial projects.
 
----
-
-**Happy Coding! 🎉**
