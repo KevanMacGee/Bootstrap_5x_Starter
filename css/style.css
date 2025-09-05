@@ -5,6 +5,7 @@
 /* ===== Variables ===== */
 :root {
     /* Custom color palette - override Bootstrap defaults */
+    /* This overrides the default Bootsrrap colors. Edit them with your own if you wish */
     --primary-color: #007bff;
     --secondary-color: #6c757d;
     --success-color: #28a745;
@@ -13,21 +14,22 @@
     --info-color: #17a2b8;
     --light-color: #f8f9fa;
     --dark-color: #343a40;
-    
+
     /* Custom spacing */
     --spacing-xs: 0.25rem;
     --spacing-sm: 0.5rem;
     --spacing-md: 1rem;
     --spacing-lg: 1.5rem;
     --spacing-xl: 3rem;
-    
+
     /* Custom fonts */
     --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --font-secondary: Georgia, "Times New Roman", serif;
 }
 
 /* ===== Components Override ===== */
-/* Example: Customize Bootstrap buttons */
+/* Example: Customize Bootstrap buttons. This is an example of how you would override 
+   specific items to change them from the stock Bootstrap look or functionality */
 .btn {
     border-radius: 0.375rem;
     transition: all 0.3s ease;
