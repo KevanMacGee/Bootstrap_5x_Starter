@@ -99,7 +99,7 @@ The `script.js` file has the basic js needed for the Bootstrap features like too
 - **Form validation** - Bootstrap validation handlers
 - **Back-to-top button** - Scroll-based visibility and smooth return
 - **Intersection Observer** - For fade-in animations. **NOTE**: This just turns on the js functionality, so the browser can "see" and run the CSS animation instructions if they are there. You will have to add them manually to the CSS first.
-- **Utility functions** - debounce, isInViewport, formatDate
+- **Utility functions** - debounce, isInViewport
 - Each function includes "What it does", "Why enable it", and "When to uncomment" notes
 
 

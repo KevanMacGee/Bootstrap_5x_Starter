@@ -178,15 +178,6 @@ function initBootstrapComponents() {
 //     );
 // }
 
-// Format date utility
-// What it does: Converts date objects to a readable format (e.g., "January 1, 2025")
-// Why enable it: Ensures consistent, localized date display across your site
-// When to uncomment: If you need to display dates from APIs or databases
-// function formatDate(date) {
-//     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-//     return new Date(date).toLocaleDateString(undefined, options);
-// }
-
 /**
  * Export functions for use in other scripts if needed
  * What it does: Makes utility functions available globally via window.customJS object
@@ -196,7 +187,6 @@ function initBootstrapComponents() {
 // window.customJS = {
 //     debounce,
 //     isInViewport,
-//     formatDate,
 //     initBootstrapComponents,
 //     initCustomFeatures
 // };
