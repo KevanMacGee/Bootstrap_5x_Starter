@@ -6,22 +6,22 @@
 
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-    
+
     // ===== Initialize Bootstrap Components =====
     initBootstrapComponents();
-    
+
     // ===== Custom Functions =====
     // What it does: Initializes smooth scrolling and fade-in animations
     // Why enable it: Provides polished UX with smooth navigation and engaging visual effects
     // When to uncomment: If you want smooth scrolling for anchor links or fade-in animations
     // initCustomFeatures();  // <- Uncomment this AND the function definition (lines 48-69)
-    
+
     // ===== Event Listeners =====
     // What it does: Sets up form validation and back-to-top button functionality
     // Why enable it: Gives users visual feedback on forms and quick navigation to page top
     // When to uncomment: If you have forms with 'needs-validation' class or a back-to-top button
     // setupEventListeners();  // <- Uncomment this AND the function definition (lines 78-107)
-    
+
 });
 
 /**
@@ -32,11 +32,11 @@ function initBootstrapComponents() {
     // Initialize all tooltips
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
-    
+
     // Initialize all popovers
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
-    
+
     // Log initialization
     console.log('Bootstrap components initialized');
 }
@@ -65,10 +65,10 @@ function initBootstrapComponents() {
 //             }
 //         });
 //     });
-//     
+//
 //     // Add fade-in animation to elements when they come into view
 //     observeElements();
-//     
+//
 //     // Log custom features initialization
 //     console.log('Custom features initialized');
 // }
@@ -92,7 +92,7 @@ function initBootstrapComponents() {
 //             form.classList.add('was-validated');
 //         }, false);
 //     });
-//     
+//
 //     // Example: Back to top button
 //     const backToTopButton = document.querySelector('#back-to-top');
 //     if (backToTopButton) {
@@ -103,7 +103,7 @@ function initBootstrapComponents() {
 //                 backToTopButton.style.display = 'none';
 //             }
 //         });
-//         
+//
 //         backToTopButton.addEventListener('click', () => {
 //             window.scrollTo({
 //                 top: 0,
@@ -125,7 +125,7 @@ function initBootstrapComponents() {
 //         threshold: 0.1,
 //         rootMargin: '0px 0px -50px 0px'
 //     };
-//     
+//
 //     const observer = new IntersectionObserver(function(entries) {
 //         entries.forEach(entry => {
 //             if (entry.isIntersecting) {
@@ -134,7 +134,7 @@ function initBootstrapComponents() {
 //             }
 //         });
 //     }, observerOptions);
-//     
+//
 //     // Observe all elements with class 'observe-fade'
 //     document.querySelectorAll('.observe-fade').forEach(el => {
 //         observer.observe(el);
@@ -169,7 +169,7 @@ function initBootstrapComponents() {
 // Why enable it: Enables performance optimizations like lazy loading and scroll-based features
 // When to uncomment: If you need to detect when elements enter/exit the viewport
 // function isInViewport(element) {
-//     const rect = element.getBoundingClientRect();
+//    const rect = element.getBoundingClientRect();
 //     return (
 //         rect.top >= 0 &&
 //         rect.left >= 0 &&
