@@ -1,6 +1,6 @@
 # Bootstrap 5 Minimal Starter Template
 
-A clean, minimal Bootstrap 5 starter template with just the essentials - ready for you to build upon.
+A clean, minimal Bootstrap 5 starter template with the essentials and a few "need to haves" - ready for you to build upon.
 
 ## 📁 Folder Structure
 
@@ -68,19 +68,22 @@ git init     # Start fresh with your own git history
 1. Obtain a copy of this template using the instructions above, based on your preference
 2. Update meta tags in `index.html`
 3. Replace "Hello, world." with your content
-4. Uncomment JavaScript features as needed (check script.js comments)
+4. ~~Uncomment JavaScript features as needed (check script.js comments)~~
 5. Customize CSS variables in `style.css`
 
 ### Minimal CSS (style.css)
 The CSS file is intentionally minimal, containing only:
 
-1. **CSS Variables** - Pre-defined color, spacing, and font variables for your custom styles.
+1. **CSS Variables** 
+
+   - Pre-defined color, spacing, and font variables for your custom styles.
    - A convenient way to define and reuse a consistent color palette and spacing system in your own CSS.
    - Note: These variables do not override Bootstrap's default theme. To use them, reference them in your custom CSS rules (e.g., `color: var(--primary-color);`).
-2. **Component Override Example** - Simple button enhancement showing how to customize Bootstrap
+2. **Component Override Example** 
+   - Simple button enhancement showing how to customize Bootstrap
    - Can be removed or modified as needed
    - Demonstrates the pattern for overriding Bootstrap components
-3. **Media Query Templates** - Empty breakpoints matching Bootstrap's responsive grid
+4. **Media Query Templates** - Empty breakpoints matching Bootstrap's responsive grid
    - 576px, 768px, 992px, 1200px
    - Ready for your responsive styles
 
