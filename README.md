@@ -26,7 +26,7 @@ Bootstrap_5x_Starter/
 ## 🚀 What's Included
 
 ### Core Setup
-- **Bootstrap 5.3.3** - Latest stable version via CDN
+- **Bootstrap 5.3.7** - Latest stable version via CDN
 - **Bootstrap Icons** - Icon library included via CDN
 - **Clean folder structure** - Flat organization for simplicity
 - **Minimal HTML** - Just "Hello, world." to start fresh
