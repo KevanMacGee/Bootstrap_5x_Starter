@@ -91,6 +91,8 @@ The CSS file is intentionally minimal, containing only:
 
 The `script.js` file has the basic js needed for the Bootstrap features like tooltips and popovers to work and this is currently active. The rest of the features have been commented out and are non functional. You will need to un-comment them to turn them on. You should be able to delete all the commented out code if you want to run a true blank slate and build your own.
 
+🚨**#Note: This method of choosing which js to use is confusing. A better method is in progress and will be released soon.#**
+
 **Active:**
 - **Bootstrap component initialization** - Tooltips and popovers ready to work
 
