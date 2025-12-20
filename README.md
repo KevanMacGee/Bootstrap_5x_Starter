@@ -1,5 +1,7 @@
 # Bootstrap 5 Minimal Starter Template
 
+NOTE! Currently, the parts of the js and css that are comments out will be removed and made more clear. The current method is confusing.
+
 A clean, minimal Bootstrap 5 starter template with the essentials and a few "need to haves" - ready for you to build upon.
 
 ## 📁 Folder Structure
